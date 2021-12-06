@@ -1,0 +1,12 @@
+super + y                                                                                                                                     
+  qutebrowser
+super + shift + y
+  brave   
+   
+   #Youtube
+  ctrl + shift + y
+          ytfzf -fD
+ 
+  #Screen Shot
+  super + shift + s
+         maim -s | tee ~/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
